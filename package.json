@@ -1,0 +1,44 @@
+{
+  "name": "gulp-chain",
+  "version": "0.0.0",
+  "description": "Prepare gulp plugin chains for re-use",
+  "main": "lib/chain.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "posttest": "./node_modules/.bin/nsp audit-package",
+    "test": "./node_modules/.bin/lab -f -t 100 -m 3000",
+    "test-coverage": "./node_modules/.bin/lab -f -r html -m 3000 -o report.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konfirm/gulp-chain.git"
+  },
+  "keywords": [
+    "gulp",
+    "prepare",
+    "chain",
+    "combine",
+    "pipes",
+    "wrap"
+  ],
+  "author": "Rogier Spieker",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/konfirm/gulp-chain/issues"
+  },
+  "homepage": "https://github.com/konfirm/gulp-chain",
+  "dependencies": {
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "code": "^1.4.0",
+    "coveralls": "^2.11.2",
+    "lab": "^5.8.1",
+    "nsp": "^1.0.1"
+},
+  "engines": {
+    "node": ">=0.10"
+  }
+}
