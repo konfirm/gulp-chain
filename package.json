@@ -1,6 +1,6 @@
 {
   "name": "gulp-chain",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Prepare gulp plugin chains for re-use",
   "main": "lib/chain.js",
   "directories": {
@@ -37,7 +37,7 @@
     "coveralls": "^2.11.2",
     "lab": "^5.8.1",
     "nsp": "^1.0.1"
-},
+  },
   "engines": {
     "node": ">=0.10"
   }
