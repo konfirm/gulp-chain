@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/konfirm/gulp-chain",
   "dependencies": {
+    "duplexer2": "0.0.2",
     "through2": "^0.6.5"
   },
   "devDependencies": {
