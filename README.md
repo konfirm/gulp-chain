@@ -86,4 +86,4 @@ You can provide any number of (default) arguments, just ensure the order remains
 
 
 ## License
-GPLv2 © [Konfirm](https://konfirm.eu)
+GPLv2 © [Konfirm ![Open](https://kon.fm/open.svg)](//kon.fm/site)
