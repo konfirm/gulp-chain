@@ -31,13 +31,14 @@
   "homepage": "https://github.com/konfirm/gulp-chain",
   "dependencies": {
     "duplexer2": "0.0.2",
+    "through": "^2.3.8",
     "through2": "^0.6.5"
   },
   "devDependencies": {
-    "code": "^1.4.0",
-    "coveralls": "^2.11.2",
-    "lab": "^5.8.1",
-    "nsp": "^1.0.1"
+    "code": "^1.4.1",
+    "coveralls": "^2.11.3",
+    "lab": "^5.13.0",
+    "nsp": "^1.0.3"
   },
   "engines": {
     "node": ">=0.10"
