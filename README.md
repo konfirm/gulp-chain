@@ -8,10 +8,18 @@
 # gulp-chain
 Prepare a chain of pipes for use as a gulp plugin (or any other piped stream, there is no true dependency of gulp)
 
-## Install
+## Installation
+
 ```
 npm install --save-dev gulp-chain
 ```
+
+As of version 2.0.0 `gulp-chain` requires NodeJS 4 or higher. If you are 'stuck' on NodeJS 0.10 - 0.12, you will need to specify the version (the latest in the v1 range is 1.1.0).
+
+```
+$ npm install --save-dev gulp-chain@^1.1.0
+```
+
 
 ### Usage
 ```js
