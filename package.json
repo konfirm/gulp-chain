@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "posttest": "./node_modules/.bin/nsp audit-package",
+    "posttest": "./node_modules/.bin/nsp check",
     "test": "./node_modules/.bin/lab -f -t 100 -m 3000",
     "test-coverage": "./node_modules/.bin/lab -f -r html -m 3000 -o report.html"
   },
@@ -30,15 +30,14 @@
   },
   "homepage": "https://github.com/konfirm/gulp-chain",
   "dependencies": {
-    "duplexer2": "0.0.2",
-    "through": "^2.3.8",
+    "duplexer2": "^0.0.2",
     "through2": "^0.6.5"
   },
   "devDependencies": {
     "code": "^1.4.1",
     "coveralls": "^2.11.3",
     "lab": "^5.13.0",
-    "nsp": "^1.0.3"
+    "nsp": "^2.1.0"
   },
   "engines": {
     "node": ">=0.10"
