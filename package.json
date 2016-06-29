@@ -1,6 +1,6 @@
 {
   "name": "gulp-chain",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Prepare gulp plugin chains for re-use",
   "main": "lib/chain.js",
   "directories": {
@@ -24,20 +24,20 @@
     "wrap"
   ],
   "author": "Rogier Spieker",
-  "license": "GPLv2",
+  "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/konfirm/gulp-chain/issues"
   },
   "homepage": "https://github.com/konfirm/gulp-chain",
   "dependencies": {
     "duplexer2": "^0.1.4",
-    "through2": "^2.0.0"
+    "through2": "^2.0.1"
   },
   "devDependencies": {
-    "code": "^2.0.1",
-    "coveralls": "^2.11.4",
-    "lab": "^8.0.0",
-    "nsp": "^2.1.0"
+    "code": "^3.0.1",
+    "coveralls": "^2.11.9",
+    "lab": "^10.8.2",
+    "nsp": "^2.5.0"
   },
   "engines": {
     "node": ">=4"
